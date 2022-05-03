@@ -7,4 +7,4 @@ I am a 1st year PhD student under professor Kwang Moo Yi at the University of Br
 ## Publications
 
 **A Simple Method to Boost Human Pose Estimation Accuracy by Correcting the Joint Regressor for the Human3.6m Dataset**\
-[[Paper]()][[Code](https://github.com/ubc-vision/joint-regressor-refinement)]
+[[Paper](https://arxiv.org/abs/2205.00076)][[Code](https://github.com/ubc-vision/joint-regressor-refinement)]
