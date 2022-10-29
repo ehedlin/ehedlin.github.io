@@ -4,7 +4,7 @@
 
 I am a 1st year PhD student under professor Kwang Moo Yi at the University of British Columbia. 
 
-[Google Scholar](https://scholar.google.ca/citations?hl=en&user=x6t__GoAAAAJ)
+[Google Scholar](https://scholar.google.ca/citations?hl=en&user=x6t__GoAAAAJ=250x)
 
 ## Publications
 
