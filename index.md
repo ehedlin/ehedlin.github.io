@@ -18,4 +18,7 @@ I am a second year PhD student under professor Kwang Moo Yi at the University of
 
 
 
-<img src="eric_hedlin.jpeg" width="200">
+<!-- <img src="eric_hedlin.jpeg" width="200"> -->
+<center>
+  <img src="eric_hedlin.jpeg" width="400" style="object-fit: cover; object-position: center; border-radius: 50%;">
+</center>
