@@ -1,3 +1,5 @@
+# Eric Hedlin
+
 I am a third-year Ph.D. student under Professor Kwang Moo Yi at the University of British Columbia. 
 
 [Google Scholar](https://scholar.google.ca/citations?hl=en&user=x6t__GoAAAAJ)
