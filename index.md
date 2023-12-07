@@ -1,3 +1,21 @@
+---
+layout: default
+title: none
+---
+
+<style>
+  /* Add your CSS styles here */
+  .wrapper {
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  /* Other custom styles */
+</style>
+
 <table>
   <tr>
     <td style="width: 300px;">
