@@ -16,11 +16,15 @@ title: " "
     padding-right: 60px;
     padding-left: 60px;
   }
+  .spaced-table {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
   /* Other custom styles */
 </style>
 
-<table>
+<table class="spaced-table">
   <tr>
     <td style="width: 300px;">
       <img src="eric_hedlin.jpeg" alt="Eric Hedlin" width="300"/>
@@ -36,7 +40,7 @@ title: " "
 
 ## Publications
 
-<table style="width: 100%;">
+<table class="spaced-table">
   <tr>
     <td style="width: 400px; text-align: center; vertical-align: middle;">
       <img src="stablekeypoints.png" alt="Publication Image" width="400"/>
