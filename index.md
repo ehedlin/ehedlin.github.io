@@ -1,5 +1,3 @@
-# Eric Hedlin
-
 <table>
   <tr>
     <td style="width: 300px;">
@@ -7,6 +5,7 @@
     </td>
     <td style="vertical-align: middle; min-height: 200px;">
       <!-- Description and Links -->
+      Eric Hedlin<br>
       I am a third-year Ph.D. student under Professor Kwang Moo Yi at the University of British Columbia.<br>
       <a href="https://scholar.google.ca/citations?hl=en&user=x6t__GoAAAAJ">Google Scholar</a> | <a href="https://en.wikipedia.org/wiki/Eric_Hedlin">Wikipedia</a>
     </td>
