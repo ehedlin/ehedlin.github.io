@@ -1,9 +1,13 @@
 ---
 layout: default
-title: none
+title: ""
 ---
 
 <style>
+  .inner {
+      width: 1000px; /* Updated width */
+      margin: 0 auto;
+  }
   /* Add your CSS styles here */
   .wrapper {
     max-width: 90%;
