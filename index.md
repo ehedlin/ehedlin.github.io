@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="index.css">
+
 <table>
   <tr>
     <td style="width: 300px;">
