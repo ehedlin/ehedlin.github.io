@@ -1,5 +1,3 @@
-##
-
 <table>
   <tr>
     <td style="width: 300px;">
