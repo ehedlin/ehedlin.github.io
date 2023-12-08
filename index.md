@@ -5,10 +5,6 @@ title: " "
 
 <style>
 
-  body {
-    background-color: #000000; /* Set the background to white */
-  }
-
   .large-font {
     font-size: 40px; /* or any size you prefer */
     font-weight: bold; /* if you want the name to be bold */
@@ -43,7 +39,7 @@ title: " "
     <td style="width: 300px;">
       <img src="eric_hedlin.jpeg" alt="Eric Hedlin" width="300"/>
     </td>
-    <td style="vertical-align: left; min-height: 200px;">
+    <td style="vertical-align: middle; min-height: 200px;">
       <!-- Description and Links -->
       <span class="large-font">Eric Hedlin</span><br>
       <span class="medium-font">I am a third-year Ph.D. student under Professor Kwang Moo Yi at the University of British Columbia</span><br>
