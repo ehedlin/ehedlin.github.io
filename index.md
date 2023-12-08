@@ -4,21 +4,21 @@ title: " "
 ---
 
 <style>
-
+  /* Existing styles */
   .large-font {
-    font-size: 40px; /* or any size you prefer */
-    font-weight: bold; /* if you want the name to be bold */
+    font-size: 40px;
+    font-weight: bold;
   }
 
   .medium-font {
-    font-size: 17px; /* or any size you prefer */
+    font-size: 17px;
   }
 
   .inner {
-      width: 1000px; /* Updated width */
-      margin: 0 auto;
+    width: 1000px;
+    margin: 0 auto;
   }
-  /* Add your CSS styles here */
+
   .wrapper {
     max-width: 90%;
     margin-right: auto;
@@ -26,9 +26,16 @@ title: " "
     padding-right: 60px;
     padding-left: 60px;
   }
+
   .spaced-table {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  /* New style for table cells */
+  .spaced-table td {
+    text-align: left; /* Align text to the left */
+    vertical-align: middle; /* Center text vertically */
   }
 
   /* Other custom styles */
