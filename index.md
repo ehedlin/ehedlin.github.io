@@ -67,7 +67,7 @@ title: " "
       <a href="https://stablekeypoints.github.io"><strong>Unsupervised Keypoints from Pretrained Diffusion Models</strong></a><br>
       <strong>Eric Hedlin</strong>, Gopal Sharma, Shweta Mahajan, Xingzhe He, Hossam Isack, Abhishek Kar Helge Rhodin, Andrea Tagliasacchi, Kwang Moo Yi<br>
       November 2023<br>
-      <a href="https://arxiv.org/abs/2312.00065">Paper</a> | <a href="https://ubc-vision.github.io/StableKeypoints/">Code</a> | <a href="https://stablekeypoints.github.io">Project page</a>
+      <a href="https://arxiv.org/abs/2312.00065">Paper</a> | <a href="https://github.com/ubc-vision/StableKeypoints">Code</a> | <a href="https://stablekeypoints.github.io">Project page</a>
     </td>
   </tr>
 
@@ -103,7 +103,7 @@ title: " "
     </td>
     <td style="vertical-align: top; min-height: 400px;">
       <!-- Description and Links -->
-      <a href="https://arxiv.org/abs/2205.00076"><strong>Unsupervised Semantic Correspondence Using Stable Diffusion</strong></a><br>
+      <a href="https://arxiv.org/abs/2205.00076"><strong>A Simple Method to Boost Human Pose Estimation Accuracy by Correcting the Joint Regressor for the Human3.6m Dataset</strong></a><br>
       <strong>Eric Hedlin</strong>, Helge Rhodin, Kwang Moo Yi<br>
       May 2022<br>
       <a href="https://arxiv.org/abs/2205.00076">Paper</a> | <a href="https://github.com/ubc-vision/joint-regressor-refinement">Code</a>
