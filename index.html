@@ -116,12 +116,13 @@
       </td>
       <td valign="top" width="85%">
         <p>
-            <b>Unsupervised Keypoints from Pretrained Diffusion Models</b>
+            <!-- <b>Unsupervised Keypoints from Pretrained Diffusion Models</b> -->
+            <a href="https://ubc-vision.github.io/StableKeypoints/"><b>Unsupervised Keypoints from Pretrained Diffusion Models</b></a>
             <br />
             <b>Eric Hedlin</b>, Gopal Sharma, Shweta Mahajan, Xingzhe He, Hossam Isack, Abhishek Kar,
             Helge Rhodin, Andrea Tagliasacchi, Kwang Moo Yi.
             <br />
-            CVPR 2024, <a href="https://ubc-vision.github.io/StableKeypoints/">Webpage</a>
+            CVPR 2024 <b>Highlight</b>
             <details>
               <summary>Abstract  </summary>            
                 <p class="message">Unsupervised learning of keypoints and landmarks has seen significant progress with the help of modern neural network architectures, but performance is yet to match the supervised counterpart, making their practicability questionable. We leverage the emergent knowledge within text-to-image diffusion models, towards more robust unsupervised keypoints. Our core idea is to find text embeddings that would cause the generative model to consistently attend to compact regions in images (i.e. keypoints). To do so, we simply optimize the text embedding such that the cross-attention maps within the denoising network are localized as Gaussians with small standard deviations. We validate our performance on multiple dataset: the CelebA, CUB-200-2011, Tai-Chi-HD, DeepFashion, and Human3.6m datasets. We achieve significantly improved accuracy, sometimes even outperforming supervised ones, particularly for data that is non-aligned and less curated.</p> </details>
@@ -141,12 +142,12 @@
       </td>
       <td valign="top" width="85%">
         <p>
-          <b>Unsupervised Semantic Correspondence Using Stable Diffusion</b>
+          <a href="https://ubc-vision.github.io/LDM_correspondences/"><b>Unsupervised Semantic Correspondence Using Stable Diffusion</b></a>
           <br />
           <b>Eric Hedlin</b>, Gopal Sharma, Shweta Mahajan, Hossam Isack, Abhishek Kar, Andrea Tagliasacchi, Kwang Moo Yi.
 
           <br />
-          NeurIPS 2023, <a href="https://ubc-vision.github.io/LDM_correspondences/">Webpage</a>
+          NeurIPS 2023
           <details>
             <summary>Abstract  </summary>            
             <p class="message">Text-to-image diffusion models are now capable of generating images that are often indistinguishable from real images. To generate such images, these models must understand the semantics of the objects they are asked to generate. In this work we show that, without any training, one can leverage this semantic knowledge within diffusion models to find semantic correspondences -- locations in multiple images that have the same semantic meaning. Specifically, given an image, we optimize the prompt embeddings of these models for maximum attention on the regions of interest. These optimized embeddings capture semantic information about the location, which can then be transferred to another image. By doing so we obtain results on par with the strongly supervised state of the art on the PF-Willow dataset and significantly outperform (20.9% relative for the SPair-71k dataset) any existing weakly or unsupervised method on PF-Willow, CUB-200 and SPair-71k datasets.</p> </details>
@@ -163,12 +164,12 @@
       </td>
       <td valign="top" width="85%">
             <p>
-                <b>CN-DHF: Compact Neural Double Height-Field Representations of 3D Shapes</b>
+                <a href="https://arxiv.org/abs/2304.13141"><b>CN-DHF: Compact Neural Double Height-Field Representations of 3D Shapes</b></a>
                 <br />
                 <b>Eric Hedlin<sup>*</sup></b>, Jinfan Yang<sup>*</sup>, Nicholas Vining, Kwang Moo Yi, Alla Sheffer.
 
                 <br />
-                April 2023, <a href="https://arxiv.org/abs/2304.13141">Arxiv</a>
+                April 2023
       <details>
                   <summary>Abstract  </summary>            
                     <p class="message">We introduce CN-DHF (Compact Neural Double-Height-Field), a novel hybrid neural implicit 3D shape representation that is dramatically more compact than the current state of the art. Our representation leverages Double-Height-Field (DHF) geometries, defined as closed shapes bounded by a pair of oppositely oriented height-fields that share a common axis, and leverages the following key observations: DHFs can be compactly encoded as 2D neural implicits that capture the maximal and minimal heights along the DHF axis; and typical closed 3D shapes are well represented as intersections of a very small number (three or fewer) of DHFs. We represent input geometries as CNDHFs by first computing the set of DHFs whose intersection well approximates each input shape, and then encoding these DHFs via neural fields. Our approach delivers high-quality reconstructions, and reduces the reconstruction error by a factor of 2:5 on average compared to the state-of-the-art, given the same parameter count or storage capacity. Compared to the best-performing alternative, our method produced higher accuracy models on 94% of the 400 input shape and parameter count combinations tested.</p> </details>
@@ -193,9 +194,9 @@
      </td>
     <td valign="top" width="85%">
       <p>
-        <b>A Simple Method to Boost Human Pose Estimation Accuracy by Correcting the Joint Regressor for the Human3.6m Dataset</b>
+        <a href="https://arxiv.org/abs/2205.00076"><b>A Simple Method to Boost Human Pose Estimation Accuracy by Correcting the Joint Regressor for the Human3.6m Dataset</b></a>
         <br />Eric Hedlin, Helge Rhodin, Kwang Moo Yi<br />
-        May 2022, <a href="https://arxiv.org/abs/2205.00076">Arxiv</a>
+        May 2022
         <details>
           <summary>Abstract  </summary>            
             <p class="message">Many human pose estimation methods estimate Skinned Multi-Person Linear (SMPL) models and regress the human joints from these SMPL estimates. In this work, we show that the most widely used SMPL-to-joint linear layer (joint regressor) is inaccurate, which may mislead pose evaluation results. To achieve a more accurate joint regressor, we propose a method to create pseudo-ground-truth SMPL poses, which can then be used to train an improved regressor. Specifically, we optimize SMPL estimates coming from a state-of-the-art method so that its projection matches the silhouettes of humans in the scene, as well as the ground-truth 2D joint locations. While the quality of this pseudo-ground-truth is challenging to assess due to the lack of actual ground-truth SMPL, with the Human 3.6m dataset, we qualitatively show that our joint locations are more accurate and that our regressor leads to improved pose estimations results on the test set without any need for retraining. We release our code and joint regressor at <a href="https://github.com/ubc-vision/joint-regressor-refinement">this https URL</a></p> </details>
